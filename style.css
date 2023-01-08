@@ -4,6 +4,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.primary {
+  color: #f15b22;
+}
+
 /* banner styles */
 
 .banner-container {
@@ -92,6 +96,7 @@ ul li::before {
 
 .my-plans {
   text-align: center;
+  margin-bottom: 130px;
 }
 
 .my-plans-container {
@@ -116,4 +121,71 @@ h5 {
 
 /* cta section styles */
 
+.cta-section {
+  width: 1140px;
+  height: 300px;
+  background-image: url("/images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  margin: auto;
+}
 
+.cta-content {
+  padding: 64px 60px;
+}
+
+.cta-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.btn-cta {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 26px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+/* footer styles */
+
+.contact {
+  margin-top: 130px;
+  display: flex;
+  background-color: #151414;
+  padding: 130px 230px;
+  color: white;
+}
+
+.contact .section-title {
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.contact input {
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.contact .section-description {
+  width: 50%;
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+
+.subscribe {
+  margin-bottom: 32px;
+}
