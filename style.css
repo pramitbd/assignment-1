@@ -79,13 +79,13 @@ ul li {
 }
 
 ul li::before {
-  content: '\f00c';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
   font-weight: bold;
 
   display: inline-block;
   margin-right: 10px;
-  color: #16D887;
+  color: #16d887;
 }
 
 /* my plans section styles */
@@ -96,25 +96,24 @@ ul li::before {
 
 .my-plans-container {
   display: flex;
-  gap: 50px;
+  gap: 86px;
   justify-content: center;
+  margin-top: 50px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
 }
 
 /* cta section styles */
 
-.cta-section {
-  background-image: url("/images/watch.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.btn-cta {
-  color: #f15b22;
-  font-weight: 600;
-  font-size: 20px;
-  padding: 20px 26px;
-  background: #white;
-  border-radius: 5px;
-  border: none;
-}
