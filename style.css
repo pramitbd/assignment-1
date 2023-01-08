@@ -57,7 +57,7 @@
   align-items: center;
 }
 
-.about-me-title {
+.section-title {
   font-weight: 700;
   font-size: 40px;
   color: #151414;
@@ -70,8 +70,51 @@
   margin-bottom: 16px;
 }
 
-ul li {
-    display: flex;
-    justify-items: center;
+ul {
   list-style: none;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li::before {
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+
+  display: inline-block;
+  margin-right: 10px;
+  color: #16D887;
+}
+
+/* my plans section styles */
+
+.my-plans {
+  text-align: center;
+}
+
+.my-plans-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+/* cta section styles */
+
+.cta-section {
+  background-image: url("/images/watch.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-cta {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 26px;
+  background: #white;
+  border-radius: 5px;
+  border: none;
 }
